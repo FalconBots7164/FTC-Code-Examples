@@ -1,3 +1,7 @@
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.hardware.DcMotor;
+
 @Autonomous
 public class Encoders extends LinearOpMode {
   DcMotor m1;
